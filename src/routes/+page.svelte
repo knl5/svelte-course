@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Card from '@smui/card';
 	import Textfield from '@smui/textfield';
+	import { goto } from '$app/navigation';
 
 	import Button from '@smui/button';
 
@@ -40,7 +41,7 @@
 					</button>
 				</div>
 			<br />
-			<Button >Connect</Button>
+			<Button on:click={() => goto('/yearbook')} >Connect</Button>
 
 	</Card>
 	</section>

@@ -13,7 +13,7 @@
         res.json();
         location.reload();
     });
-}
+	}
 </script>
 
 <DataTable table$aria-label="User list" style="width: 100%;">
